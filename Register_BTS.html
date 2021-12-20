@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="common.css">
+
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse navbarNav1" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">한국어</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbarNav2" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">기술.솔루션</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">문의하기</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">회사소개</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div style="padding: 10px;"></div>
+        <h1>회원가입</h1>
+        <div style="padding: 15px;"></div>
+        <h5>쉽고 간편한 클라우드 서비스를 만나보세요.</h5>
+        <div style="padding: 30px;"></div>
+        <article>
+            <form>
+                <h5 class="main-form-title">1. 로그인 정보</h5>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">이메일 <span style="color: skyblue;">(필수)</span></label>
+                    <div>
+                        <small id="emailHelp" class="form-text text-muted"">입력하신 이메일로 서비스 관련 주요사항이 안내됩니다.</small>
+                    </div>
+                    <input type="text" class="form-control" placeholder="아이디로 사용될 이메일을 입력해주세요." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <select class="input-group-text" id="basic-addon2">
+                            <option selected>@example.com</option>
+                            <option value="1">@gmail.com</option>
+                            <option value="2">@naver.com</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="padding: 15px;"></div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">비밀번호 <span style="color: skyblue;">(필수)</span></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="비밀번호를 입력해주세요.">
+
+                    <label for="exampleInputPassword1">비밀번호 확인 <span style="color: skyblue;">(필수)</span></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="비밀번호를 다시 입력해주세요.">
+                </div>
+                <div style="padding: 15px;"></div>
+                <h5 class="main-form-title">2. 개인 정보</h5>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">회원유형 <span style="color: skyblue;">(필수)</span></label>
+                    <div class="input-group-append">
+                        <select class="input-group-text" id="basic-addon2" style="width: 500px; margin-left: auto; margin-right: auto;">
+                            <option selected>회원유형을 선택해주세요.</option>
+                            <option value="1">개인회원</option>
+                            <option value="2">사업자</option>
+                        </select>
+                    </div>
+                    <div style="padding: 15px;"></div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">이름/회사명<span style="color: skyblue;">(필수)</span></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="이름 또는 회사명을 입력해주세요.">
+                    </div>
+                </div>
+                <div style="padding: 15px;"></div>
+                <h5 class="main-form-title"></h5>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">휴대폰 번호 <span style="color: skyblue;">(필수)</span></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="'-'없이 입력해주세요.">
+                </div>
+                <h5 class="main-form-title"></h5>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">문의유형 <span style="color: skyblue;">(필수)</span></label>
+                    <div class="input-group-append">
+                        <select class="input-group-text" id="basic-addon2" style="width: 500px; margin-left: auto; margin-right: auto;">
+                            <option selected>문의유형을 선택해주세요.</option>
+                            <option value="1">비지니스 문의</option>
+                            <option value="2">가입 및 관리</option>
+                        </select>
+                    </div>
+                </div>
+                <h5 class="main-form-title"></h5>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">제목 <span style="color: skyblue;">(필수)</span></label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="제목을 입력해주세요.">
+                </div>
+                <h5 class="main-form-title"></h5>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">자동입력방지 <span style="color: skyblue;">(필수)</span></label>
+                    <div>
+                        <small id="emailHelp" class="form-text text-muted"">아래 이미지를 보인는 대로 입력해주세요.</small>
+                    </div>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div style="padding: 5px;"></div>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="자동입력방지 문자를 확인해주세요.">
+                </div>
+                <div style="padding: 15px;"></div>
+                <button type="submit" class="form-submit">문의하기</button>
+            </form>
+        </articlee>
+        <footer>
+            <div class="footer">
+                <h5>Powered By</h5>
+            </div>
+            <div class="footer">
+                <h5>Contact</h5>
+                <div>
+                    서울시 강서구 마곡중앙 12로 31
+                    <br>
+                    02-6429-7100
+                </div>
+            </div>
+            <div class="footer">
+                <h5>Follow US</h5>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
